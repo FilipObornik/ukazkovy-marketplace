@@ -20,6 +20,16 @@ Tento počítač + GitHub
 
 Pravidlo: **každý skill žije přesně na jednom místě.** Buď ve složce projektu (`.agents/skills`), nebo tady. Nikde jinde, ani v nastavení účtu Claude nebo ChatGPT.
 
+## Kde co funguje
+
+| | Claude Code | Cowork | ChatGPT (Codex) |
+|---|---|---|---|
+| Instrukce (`AGENTS.md`) | ano | ano | ano |
+| Skilly projektu (`.agents/skills`) | ano | ne | ano |
+| Sdílené skilly (tento marketplace) | ano | ano | ano |
+
+Cowork skilly projektu ze složky nenačítá, proto se s nimi pracuje v Claude Code nebo v Codexu.
+
 ## Co je v pluginu `obornik-ukazka`
 
 | Skill | K čemu |
