@@ -15,12 +15,12 @@ AI/firma/                               AI/osobni/
 
 Tento počítač + GitHub
 ~/AI/ukazkovy-marketplace/  tohle repo = sdílené skilly
-└── plugins/sdilene/skills/<nazev>/SKILL.md
+└── plugins/obornik-ukazka/skills/<nazev>/SKILL.md
 ```
 
 Pravidlo: **každý skill žije přesně na jednom místě.** Buď ve složce projektu (`.agents/skills`), nebo tady. Nikde jinde, ani v nastavení účtu Claude nebo ChatGPT.
 
-## Co je v pluginu `sdilene`
+## Co je v pluginu `obornik-ukazka`
 
 | Skill | K čemu |
 |---|---|
@@ -29,7 +29,7 @@ Pravidlo: **každý skill žije přesně na jednom místě.** Buď ve složce pr
 | `kontrola-skillu` | Ukáže, odkud se který skill bere, a najde duplicity |
 | `letenka-do-kalendare` | Přepíše letenku nebo jízdenku do kalendáře |
 
-Volání: v Claude `/sdilene:nazev`, v ChatGPT/Codexu `$sdilene:nazev`. Oba nástroje skill spustí i samy, když požadavek odpovídá popisu.
+Volání: v Claude `/obornik-ukazka:nazev`, v ChatGPT/Codexu `$obornik-ukazka:nazev`. Oba nástroje skill spustí i samy, když požadavek odpovídá popisu.
 
 ## Běžné situace
 

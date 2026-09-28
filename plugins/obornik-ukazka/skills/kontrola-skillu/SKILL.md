@@ -16,7 +16,7 @@ description: Zkontroluje nastavení AI složky a skillů. Ukáže, odkud se kter
 2. Výsledek shrň uživateli lidsky a stručně:
    - co je v pořádku,
    - co je potřeba opravit a proč,
-   - u duplicit: která kopie je ta správná (projektová v `.agents/skills`, nebo sdílená v pluginu `sdilene`) a které jsou navíc.
+   - u duplicit: která kopie je ta správná (projektová v `.agents/skills`, nebo sdílená v pluginu `obornik-ukazka`) a které jsou navíc.
 3. Nic sám nemaž. Navrhni konkrétní kroky po jednotlivých skillech a proveď je až po souhlasu uživatele:
    - skill, který je na nepatřičném místě a nikde jinde, navrhni **přesunout** (do `.agents/skills` projektu, nebo do sdíleného pluginu), ne smazat,
    - smazat navrhni jen kopii, u které jsi ověřil, že stejný skill existuje na správném místě,
@@ -27,7 +27,7 @@ description: Zkontroluje nastavení AI složky a skillů. Ukáže, odkud se kter
 | Zdroj ve výpisu | Co to je | Má tam být? |
 |---|---|---|
 | `projekt` | `.agents/skills` v tomto projektu | Ano, projektové skilly |
-| `plugin` | nainstalovaný plugin z marketplace | Ano, sdílené skilly (`sdilene:...`) a oficiální pluginy |
+| `plugin` | nainstalovaný plugin z marketplace | Ano, sdílené skilly (`obornik-ukazka:...`) a oficiální pluginy |
 | `claude-uzivatel` | `~/.claude/skills` | Ne, sem skilly nepatří |
 | `codex-uzivatel` | `~/.codex/skills` | Ne, sem skilly nepatří |
 | `spolecne-uzivatel` | `~/.agents/skills` | Ne, sem skilly nepatří |

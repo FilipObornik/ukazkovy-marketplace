@@ -31,13 +31,13 @@ Když znaky nejsou jednoznačné, doporuč projektový. Na sdílený jde povýš
 
 **Kam ho uložit:**
 - **Projektový:** `<kořen projektu>/.agents/skills/<nazev>/SKILL.md`
-- **Sdílený:** v repu marketplace (cesta je v `AGENTS.md` projektu, sekce Skilly) do `plugins/sdilene/skills/<nazev>/SKILL.md`
+- **Sdílený:** v repu marketplace (cesta je v `AGENTS.md` projektu, sekce Skilly) do `plugins/obornik-ukazka/skills/<nazev>/SKILL.md`
 
 Nikdy neukládej skill do `~/.claude/skills`, `~/.codex/skills`, `~/.agents/skills`, přímo do `.claude/skills` ani do nastavení účtu Claude nebo ChatGPT. Složka `.claude/skills` v projektu je jen odkaz na `.agents/skills`.
 
 ## 2. Zkontroluj, jestli už neexistuje
 
-Podívej se do `.agents/skills/` v projektu a do `plugins/sdilene/skills/` v repu marketplace, jestli tam už skill se stejným nebo podobným účelem není. Když ano, uprav ten existující, nevytvářej druhý.
+Podívej se do `.agents/skills/` v projektu a do `plugins/obornik-ukazka/skills/` v repu marketplace, jestli tam už skill se stejným nebo podobným účelem není. Když ano, uprav ten existující, nevytvářej druhý.
 
 - **Převzetí z jiného projektu:** zkopíruj skill sem a uprav ho pro tento projekt. Neodkazuj na cizí složku, projekty mají zůstat nezávislé.
 - **Povýšení projektového na sdílený:** skill přesuň (ne zkopíruj) do repa marketplace, aby v projektu nezůstala druhá kopie. Když má stejný skill i jiný projekt, upozorni na to uživatele a navrhni sjednocení.
@@ -73,7 +73,7 @@ description: Co skill dělá. Použij, když uživatel ...
 - **Sdílený skill** rovnou publikuj skillem `publikuj-skilly`. Je to součást uložení, uživatel nemusí nic dalšího říkat. Totéž platí po úpravě sdíleného skillu.
 
 Nakonec uživateli řekni, kam jsi skill uložil (projektový, nebo sdílený a proč) a jak ho zavolá:
-- Claude: `/nazev-skillu` (sdílený `/sdilene:nazev-skillu`)
-- ChatGPT/Codex: `$nazev-skillu` (sdílený `$sdilene:nazev-skillu`)
+- Claude: `/nazev-skillu` (sdílený `/obornik-ukazka:nazev-skillu`)
+- ChatGPT/Codex: `$nazev-skillu` (sdílený `$obornik-ukazka:nazev-skillu`)
 
 Oba nástroje skill spustí i samy, když požadavek odpovídá popisu.

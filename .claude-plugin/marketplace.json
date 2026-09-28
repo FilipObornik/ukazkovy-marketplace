@@ -4,8 +4,8 @@
   "owner": { "name": "Filip Oborník", "url": "https://filipobornik.cz" },
   "plugins": [
     {
-      "name": "sdilene",
-      "source": "./plugins/sdilene",
+      "name": "obornik-ukazka",
+      "source": "./plugins/obornik-ukazka",
       "description": "Skilly sdílené napříč všemi projekty."
     }
   ]
