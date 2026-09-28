@@ -33,9 +33,8 @@ Volání: v Claude `/sdilene:nazev`, v ChatGPT/Codexu `$sdilene:nazev`. Oba nás
 
 ## Běžné situace
 
-- **Chci nový skill jen pro firmu**: v projektu Firma napiš „ulož to jako skill". Uloží se do `.agents/skills` a je hned k dispozici v obou nástrojích.
-- **Chci skill ve všech projektech**: řekni, že má být sdílený. Uloží se sem a pak napiš „publikuj skilly".
-- **Upravil jsem sdílený skill**: napiš „publikuj skilly". Bez toho se změna do ostatních nástrojů a zařízení nedostane.
+- **Chci nový skill**: napiš „ulož to jako skill". AI ho uloží buď jen do projektu (`.agents/skills`), nebo sem mezi sdílené a rovnou publikuje. Když z povahy skillu není jasné, kam patří, zeptá se a doporučí.
+- **Upravil jsem sdílený skill ručně**: napiš „publikuj skilly". Bez toho se změna do ostatních nástrojů a zařízení nedostane.
 - **Chci převzít skill z druhého projektu**: „podívej se na skill X v projektu Osobní a udělej podle něj verzi pro firmu". Vznikne samostatná kopie, projekty zůstanou nezávislé.
 - **Nevím, odkud se skill bere, nebo ho vidím dvakrát**: napiš „zkontroluj skilly".
 
