@@ -1,7 +1,7 @@
 {
-  "name": "chau-skills",
+  "name": "ukazkovy-marketplace",
   "description": "Sdílené skilly pro Claude i ChatGPT (Codex).",
-  "owner": { "name": "Thanh Chau" },
+  "owner": { "name": "Filip Oborník", "url": "https://filipobornik.cz" },
   "plugins": [
     {
       "name": "sdilene",

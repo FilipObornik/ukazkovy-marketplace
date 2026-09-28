@@ -1,4 +1,4 @@
-# Sdílené skilly (chau-skills)
+# Ukázkový marketplace sdílených skillů
 
 Tohle repo je marketplace se skilly, které fungují ve všech projektech, v Claude i v ChatGPT (Codex). Projektové skilly sem nepatří, ty žijí přímo ve složce projektu.
 
@@ -6,7 +6,7 @@ Tohle repo je marketplace se skilly, které fungují ve všech projektech, v Cla
 
 ```
 Firemní Google Drive                    Osobní Google Drive
-AI/vosime/                              AI/osobni/            (family office uvnitř)
+AI/firma/                               AI/osobni/
 ├── AGENTS.md          instrukce pro Claude i ChatGPT
 ├── .agents/skills/    skilly jen pro tento projekt
 ├── .claude/skills     odkaz na .agents/skills (neupravovat)
@@ -14,7 +14,7 @@ AI/vosime/                              AI/osobni/            (family office uvn
 └── .codex/config.toml      napojení na tento marketplace (ChatGPT/Codex)
 
 Tento počítač + GitHub
-~/AI/chau-skills/      tohle repo = sdílené skilly
+~/AI/ukazkovy-marketplace/  tohle repo = sdílené skilly
 └── plugins/sdilene/skills/<nazev>/SKILL.md
 ```
 
@@ -33,10 +33,10 @@ Volání: v Claude `/sdilene:nazev`, v ChatGPT/Codexu `$sdilene:nazev`. Oba nás
 
 ## Běžné situace
 
-- **Chci nový skill jen pro Vosíme**: v projektu Vosíme napiš „ulož to jako skill". Uloží se do `.agents/skills` a je hned k dispozici v obou nástrojích.
+- **Chci nový skill jen pro firmu**: v projektu Firma napiš „ulož to jako skill". Uloží se do `.agents/skills` a je hned k dispozici v obou nástrojích.
 - **Chci skill ve všech projektech**: řekni, že má být sdílený. Uloží se sem a pak napiš „publikuj skilly".
 - **Upravil jsem sdílený skill**: napiš „publikuj skilly". Bez toho se změna do ostatních nástrojů a zařízení nedostane.
-- **Chci převzít skill z druhého projektu**: „podívej se na skill X v projektu Osobní a udělej podle něj verzi pro Vosíme". Vznikne samostatná kopie, projekty zůstanou nezávislé.
+- **Chci převzít skill z druhého projektu**: „podívej se na skill X v projektu Osobní a udělej podle něj verzi pro firmu". Vznikne samostatná kopie, projekty zůstanou nezávislé.
 - **Nevím, odkud se skill bere, nebo ho vidím dvakrát**: napiš „zkontroluj skilly".
 
 ## Pravidla, která hlídají, aby to fungovalo

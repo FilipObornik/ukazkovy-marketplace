@@ -1,7 +1,7 @@
 {
   "name": "sdilene",
   "displayName": "Sdílené skilly",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Skilly sdílené napříč všemi projekty. Obsahuje i správu skillů: nový skill, publikování a kontrolu.",
-  "author": { "name": "Thanh Chau" }
+  "author": { "name": "Filip Oborník", "url": "https://filipobornik.cz" }
 }
