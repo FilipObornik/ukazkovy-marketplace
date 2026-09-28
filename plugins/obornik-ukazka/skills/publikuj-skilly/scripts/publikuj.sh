@@ -30,7 +30,7 @@ for PLUGIN in $PLUGINY; do
   MANIFEST="plugins/$PLUGIN/.claude-plugin/plugin.json"
   [ -f "$MANIFEST" ] || continue
   if git diff --cached -- "$MANIFEST" | grep -q '^+.*"version"'; then
-    echo "  $PLUGIN: verze už změněná ručně, nechávám"
+    echo "  $PLUGIN: verze je nastavená v této změně (nový nebo ručně upravený plugin), nechávám"
     continue
   fi
   STARA="$(sed -nE 's/.*"version"[[:space:]]*:[[:space:]]*"([0-9]+\.[0-9]+\.[0-9]+)".*/\1/p' "$MANIFEST" | head -1)"
