@@ -22,13 +22,13 @@ Pravidlo: **každý skill žije přesně na jednom místě.** Buď ve složce pr
 
 ## Kde co funguje
 
-| | Claude Code | Cowork | ChatGPT (Codex) |
+| | Claude Code | Cowork | ChatGPT (Codex, Work) |
 |---|---|---|---|
 | Instrukce (`AGENTS.md`) | ano | ano | ano |
 | Skilly projektu (`.agents/skills`) | ano | ne | ano |
 | Sdílené skilly (tento marketplace) | ano | ano | ano |
 
-Cowork skilly projektu ze složky nenačítá, proto se s nimi pracuje v Claude Code nebo v Codexu.
+V ChatGPT Work je potřeba složku otevřít jako lokální projekt. Cowork skilly projektu ze složky nenačítá, proto se s nimi pracuje v Claude Code, v Codexu nebo v ChatGPT Work.
 
 ## Co je v pluginu `obornik-ukazka`
 
