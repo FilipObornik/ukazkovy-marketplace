@@ -16,6 +16,8 @@ Z podkladu zjisti pro každý úsek cesty (tam i zpět jsou samostatné událost
 
 Když něco chybí nebo je nejasné (hlavně časová zóna nebo datum příjezdu po půlnoci), zeptej se. Nic si nedomýšlej.
 
+Když přijde víc letenek nebo jízdenek najednou, zpracuj všechny a ukaž jeden společný návrh seřazený podle času.
+
 ## 2. Ukaž návrh a počkej na potvrzení
 
 Vypiš návrh událostí v tomto tvaru a zeptej se, jestli je založit:
