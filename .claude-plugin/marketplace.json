@@ -1,0 +1,12 @@
+{
+  "name": "chau-skills",
+  "description": "Sdílené skilly pro Claude i ChatGPT (Codex).",
+  "owner": { "name": "Thanh Chau" },
+  "plugins": [
+    {
+      "name": "sdilene",
+      "source": "./plugins/sdilene",
+      "description": "Skilly sdílené napříč všemi projekty."
+    }
+  ]
+}

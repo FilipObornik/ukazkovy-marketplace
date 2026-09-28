@@ -1,0 +1,7 @@
+{
+  "name": "sdilene",
+  "displayName": "Sdílené skilly",
+  "version": "0.1.0",
+  "description": "Skilly sdílené napříč všemi projekty. Obsahuje i správu skillů: nový skill, publikování a kontrolu.",
+  "author": { "name": "Thanh Chau" }
+}
