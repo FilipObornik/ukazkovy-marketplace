@@ -17,7 +17,10 @@ description: Zkontroluje nastavení AI složky a skillů. Ukáže, odkud se kter
    - co je v pořádku,
    - co je potřeba opravit a proč,
    - u duplicit: která kopie je ta správná (projektová v `.agents/skills`, nebo sdílená v pluginu `sdilene`) a které jsou navíc.
-3. Nic sám nemaž. Navrhni konkrétní kroky a proveď je až po souhlasu uživatele.
+3. Nic sám nemaž. Navrhni konkrétní kroky po jednotlivých skillech a proveď je až po souhlasu uživatele:
+   - skill, který je na nepatřičném místě a nikde jinde, navrhni **přesunout** (do `.agents/skills` projektu, nebo do sdíleného pluginu), ne smazat,
+   - smazat navrhni jen kopii, u které jsi ověřil, že stejný skill existuje na správném místě,
+   - nikdy nenavrhuj smazat celou složku se skilly najednou.
 
 ## Jak číst zdroje skillů
 
